@@ -1,0 +1,19 @@
+@import 'core/vars';
+@import 'mixins/padding';
+
+.Header {
+  @include page-padding;
+  height: $header-height;
+  color: white;
+  background-color: $arm-blue;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  display: flex;
+  align-items: center;
+
+  &__inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

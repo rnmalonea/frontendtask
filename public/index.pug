@@ -1,0 +1,19 @@
+doctype html
+html(lang=locale)
+    head
+        title=title
+        base(href=basePath)
+        <!--[if IE]></base><![endif]-->
+
+        meta(http-equiv='X-UA-Compatible' content='IE=edge')
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+
+        each styleHref in assets.css
+            link(rel='stylesheet' href=styleHref)
+
+    body
+        #root(style='height: 100%')
+
+        each scriptSrc in assets.js
+            script(src=scriptSrc)

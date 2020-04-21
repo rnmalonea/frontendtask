@@ -1,0 +1,191 @@
+{
+  "count": 9,
+  "items": [
+    {
+      "id": "ANX-1311",
+      "state": "EXPIRED",
+      "validFrom": "01-05-2004",
+      "validThrough": "02-05-2004",
+      "productCount": 2,
+      "entitledProducts": [
+        {
+          "id": "CRT-63",
+          "name": "Cortex A-63",
+          "exportControlled": false,
+          "group": "Soft CPU",
+          "revision": "r2p0"
+        },
+        {
+          "id": "NOX12",
+          "name": "Noxa MP-Core",
+          "exportControlled": true,
+          "group": "CPU",
+          "revision": "r1p1"
+        }
+      ]
+    },
+    {
+      "id": "ANX-1209",
+      "state": "ACTIVE",
+      "validFrom": "01-01-2020",
+      "validThrough": "01-01-2021",
+      "productCount": 1,
+      "entitledProducts": [
+        {
+          "id": "CRT-63",
+          "name": "Cortex A-63",
+          "exportControlled": false,
+          "group": "Soft CPU",
+          "revision": "r2p2"
+        }
+      ]
+    },
+    {
+      "id": "ANX-2000",
+      "state": "EXPIRED",
+      "validFrom": "01-01-2004",
+      "validThrough": "01-06-2004",
+      "productCount": 1,
+      "entitledProducts": [
+        {
+          "id": "T1000",
+          "name": "Skynet T1000",
+          "exportControlled": false,
+          "group": "Cyborg",
+          "revision": "r2p0"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1888",
+      "state": "DRAFT",
+      "validFrom": null,
+      "validThrough": null,
+      "productCount": 3,
+      "entitledProducts": [
+        {
+          "id": "CRT-100",
+          "name": "Cortex 100 XT",
+          "exportControlled": true,
+          "group": "Embedded CPU",
+          "revision": "r13p1"
+        },
+        {
+          "id": "NOX12",
+          "name": "Noxa MP-Core",
+          "exportControlled": true,
+          "group": "CPU",
+          "revision": "r10p12"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1889",
+      "state": "DRAFT",
+      "validFrom": null,
+      "validThrough": null,
+      "productCount": 2,
+      "entitledProducts": [
+        {
+          "id": "XX-91 SFT PKG",
+          "name": "Xenith 91 Safety Package",
+          "exportControlled": true,
+          "group": "Logic Ip",
+          "revision": "r0p1"
+        },
+        {
+          "id": "XX-91 SPT PKG",
+          "name": "Xenith 91 Support Package",
+          "exportControlled": true,
+          "group": "Logic Ip",
+          "revision": "r0p1"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1900",
+      "state": "ACTIVE",
+      "validFrom": "01-12-2019",
+      "validTo": "01-12-2020",
+      "productCount": 1,
+      "entitledProducts": [
+        {
+          "id": "AP",
+          "name": "Aspex Precision",
+          "exportControlled": false,
+          "group": "Microcontroller",
+          "revision": "r2p0"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1901",
+      "state": "ACTIVE",
+      "validFrom": "01-12-2019",
+      "validTo": "01-12-2020",
+      "productCount": 1,
+      "entitledProducts": [
+        {
+          "id": "MP0644",
+          "name": "Thyestes MP-Core",
+          "exportControlled": true,
+          "group": "CPU",
+          "revision": "r0p0"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1901",
+      "state": "BLOCKED",
+      "validFrom": "01-12-2019",
+      "validTo": "01-12-2020",
+      "productCount": 1,
+      "entitledProducts": [
+        {
+          "id": "MP0644",
+          "name": "Thyestes MP-Core",
+          "exportControlled": true,
+          "group": "CPU",
+          "revision": "r1p1"
+        }
+      ]
+    },
+    {
+      "id": "CNX-1901",
+      "state": "DRAFT",
+      "validFrom": null,
+      "validTo": null,
+      "productCount": 4,
+      "entitledProducts": [
+        {
+          "id": "AE-33",
+          "name": "Aerope Soft",
+          "exportControlled": false,
+          "group": "Soft CPU",
+          "revision": "r1p1"
+        },
+        {
+          "id": "MP0644",
+          "name": "Menelaus MP-Core",
+          "exportControlled": false,
+          "group": "CPU",
+          "revision": "r1p1"
+        },
+        {
+          "id": "SFC1",
+          "name": "Super fast core",
+          "exportControlled": false,
+          "group": "CPU",
+          "revision": "r1p1"
+        },
+        {
+          "id": "MP0614",
+          "name": "Agamemnon MP-Core",
+          "exportControlled": false,
+          "group": "CPU",
+          "revision": "r1p1"
+        }
+      ]
+    }
+  ]
+}
